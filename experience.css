@@ -1,0 +1,55 @@
+body{
+    background: grey;
+  }
+  
+  h3,
+  h4,
+  p {
+  margin: 0;
+  }
+  
+  .container{
+    width:80%;
+    margin:0 auto;
+    padding:10px;
+    min-height:400px;
+  }
+  
+  
+  .profile, .gap{
+    float:left;
+  }
+  
+  .profile{
+    width:30%;  
+    background-color: white;
+    border-radius: 10px;
+    padding:5px;
+  } 
+  .profile-pic{
+    width:100%;
+    height:300px;
+  }
+  .details{
+    width:66%;
+    float:right;
+    background-color: white;
+    border-radius: 10px;
+    padding:5px;
+  }
+  .profile h1{
+    text-align:center;
+  }
+  .profile p{
+    text-align: center;
+  }
+
+  .academic{
+      border:1px solid black;
+      border-collapse: collapse;
+      width:100%;
+      text-align: left;
+  }
+  .technical-list > li{
+    margin-bottom:5px;
+  }
